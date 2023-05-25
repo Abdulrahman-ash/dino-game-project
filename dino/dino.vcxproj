@@ -23,6 +23,7 @@
     <ClCompile Include="Dino.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GUI.cpp" />
     <ClCompile Include="Hittable.cpp" />
     <ClCompile Include="IDino.cpp" />
     <ClCompile Include="IEnemy.cpp" />
@@ -34,9 +35,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background.h" />
+    <ClInclude Include="def.h" />
     <ClInclude Include="Dino.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GUI.h" />
     <ClInclude Include="Hittable.h" />
     <ClInclude Include="IDino.h" />
     <ClInclude Include="IEnemy.h" />
