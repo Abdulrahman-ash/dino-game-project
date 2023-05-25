@@ -1,21 +1,10 @@
 #pragma once
 
-#include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
-enum Screen
-{
-	LANDING,
-	MAIN,
-	GAME
-};
+#include "def.h"
 
 class Background
 {
-private:
-	Screen current_screen = Screen::LANDING;
-
 public:
-	void changeScreen(Screen S);
-	void display(sf::RenderWindow* window, sf::Font*);
-	int getCurrentScreen();
+	void display(sf::RenderWindow* window, State state);
 };
